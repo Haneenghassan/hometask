@@ -16,15 +16,16 @@
     <title>webpage</title>
     <style>
         body{background-color: antiquewhite;
+            width: 50%;
+            margin: 0 auto;
              }
 
        .main{/*background-color:red;*/
-         width:75%;
         display: flex;
-        margin: 0 12.5%;
+       justify-content: space-between;
         }
         
-        .nav {display: flex;}
+        .nav-left  {display: flex;}
         
         .fa-utensils {font-size: 50px;
         padding: 4%;}
@@ -37,42 +38,48 @@
         width: 200px;
     margin: 34px -86px 0; }
 
+    .nav-right {display: flex;}
+
     .A {
         font-size: 30px;
-       position: relative;  
-    left: 80%;
+     margin: 0 4px;
     }
    
-    #id1 {
-    position: relative;
-    right: -265px;
-    top: 18px;
-    }
+    #id3 {width: 100%;
+    display: block;
+margin: 10px auto;}
+  
+hr {border-top: 5px solid gainsboro;}
 
-    #id2 {
-        color: green;
-        position: relative;
-        top: 36%;
-        right: -14%;}
-        #id3 {width:100%px;
-            height: 50%;
-            position: relative;
-            left: 500px;}
+.checkbox {border: 1px outset  rgb(240, 240, 177);
+    background-color: rgb(240, 240, 177);
+    display: grid;
+grid-template-columns: auto auto;
+}
+
+#id4 {width: 60px;
+    border: 1px outset ;
+border-radius:13px ;
+display: block;}
+
    
     </style>
+
     
 
 </head>
 <body>
     <header class="main">
 
-        <div class="nav">
+        <div class="nav-left">
 
             <i class="fa-solid fa-utensils"></i>
             <h1>Delecious</h1>
             <p id="head">Lorem ipsum dolor sit.</p>
         </div>
 
+
+<div class="nav-right">
             <div class="A">
             <i  class="fa-brands fa-facebook-f"></i>
             </div>
@@ -92,18 +99,75 @@
                 <i class="fa-brands fa-square-instagram"></i>
 
             </div>
+        </div>
         </header>
+        <hr>
 
             <div>
-            <h2 id="id1">chocalate Pizza</h2>
-            <p id="id2">posted on 26.10.2022</p>
+            <h2 >chocalate Pizza</h2>
+            <p >posted on 26.10.2022</p>
+            <img id="id3" src="https://assets.simpleviewinc.com/simpleview/image/upload/crm/syracuse/Chocolate-Pizza-Company-3760573c5056a34_37605845-5056-a348-3a94b9078ed1e58c.jpg"> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nemo voluptatem vero? Dolore distinctio quia amet quos maiores quibusdam exercitationem ut reiciendis! Eos accusamus rem maxime cum excepturi doloribus cumque perferendis, autem at aut! Mollitia voluptates veritatis illum dicta et porro sed? Reprehenderit eaque voluptatum corporis ratione ipsum labore recusandae. Dolorem veniam ipsum corrupti repudiandae asperiores, assumenda doloremque natus dolorum, deserunt voluptatum molestias ut quod nam modi, enim est quae ex provident laboriosam ducimus voluptate? Reiciendis perferendis voluptas eum, expedita, eius laudantium ab vitae, maiores unde consequatur porro temporibus. Corporis, explicabo? Molestias necessitatibus nobis eos quaerat perspiciatis mollitia accusantium fugiat.</p>   
         </div>
-        <div>
-            <img id="id3" src="https://assets.simpleviewinc.com/simpleview/image/upload/crm/syracuse/Chocolate-Pizza-Company-3760573c5056a34_37605845-5056-a348-3a94b9078ed1e58c.jpg">
-            
+ 
+        <div class="checkbox">
+            <div >
+                <input type="checkbox"/>
+                <label>Lorem ipsum dolor, sit amet</label>
+            </div>
+            <div>
+                <input type="checkbox"/>
+                <label>Lorem ipsum dolor, sit amet</label>
+            </div>
+            <div>
+                <input type="checkbox"/>
+                <label>Lorem ipsum dolor, sit amet</label>
+            </div>
+            <div>
+                <input type="checkbox"/>
+                <label>Lorem ipsum dolor, sit amet</label>
+            </div>
+            <div>
+                <input type="checkbox"/>
+                <label>Lorem ipsum dolor, sit amet</label>
+            </div>
+            <div>
+                <input type="checkbox"/>
+                <label>Lorem ipsum dolor, sit amet</label>
+            </div>
+            <div>
+                <input type="checkbox"/>
+                <label>Lorem ipsum dolor, sit amet</label>
+            </div>
+            <div>
+                <input type="checkbox"/>
+                <label>Lorem ipsum dolor, sit amet</label>
+            </div>
+            <div>
+                <input type="checkbox"/>
+                <label>Lorem ipsum dolor, sit amet</label>
+            </div>
+            <div> <input type="checkbox"/>
+                <label>Lorem ipsum dolor, sit amet</label>
+            </div>
+            <div> <input type="checkbox"/>
+                <label>Lorem ipsum dolor, sit amet</label>
+            </div>
+            <div> <input type="checkbox"/>
+                <label>Lorem ipsum dolor, sit amet</label>
+            </div>
+
+        </div>
+        <hr>
+        <div >
+            <img id="id4" src="https://static.remove.bg/remove-bg-web/ea3c274e1b7f6fbbfe93fad8b2b13d7ef352f09c/assets/start-1abfb4fe2980eabfbbaaa4365a0692539f7cd2725f324f904565a9a744f8e214.jpg" >
+            <p>Lorem ipsum dolor</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nihil, excepturi totam ducimus libero nisi corrupti odit adipisci debitis obcaecati harum sunt maxime eveniet, minima quam doloremque. Placeat, quidem animi?</p>
+        </div>
+            <div>
+            <button>Lorem</button>
         </div>
       
-    
     
 
 
